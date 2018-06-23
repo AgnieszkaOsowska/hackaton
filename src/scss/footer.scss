@@ -1,0 +1,55 @@
+.main-foot {
+    &__nav {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 50% 50%;
+        &__cat {
+            font-family: $font-M;
+            font-weight: 600;
+            font-size: $base-unit;
+            text-decoration: none;
+            color: #767676;
+            grid-gap: 100px;
+
+            
+        }
+        &__col {
+            &_1 {
+                grid-column-start: 1;
+                grid-row-start: 1;
+
+                font-family: $font-M;
+                font-weight: 600;
+                font-size: $base-unit *.75;
+                text-decoration: none;
+                color: #767676;
+
+            }
+            &_2 {
+                grid-column-start: 1;
+                grid-row-start: 2;
+            }
+            &_3 {
+                grid-column-start: 2;
+                grid-row-start: 1;
+                grid-row-end: 3;
+            }
+            &_4 {
+                grid-column-start: 3;
+                grid-row-start: 1;
+            }
+            &_5 {
+                grid-column-start: 3;
+                grid-row-start: 2;
+            }
+            &_6 {
+                grid-column-start: 4;
+                grid-row-start: 1;
+                grid-row-end: 3;
+            }
+        }
+    }
+    &__copy {
+        margin-top: $base-unit;
+    }
+}
