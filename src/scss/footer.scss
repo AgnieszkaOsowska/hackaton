@@ -17,38 +17,49 @@
             &_1 {
                 grid-column-start: 1;
                 grid-row-start: 1;
-
+                
                 >div{
                     padding-bottom: $base-unit;
                 }
-                font-family: $font-M;
-                font-weight: 600;
-                font-size: $base-unit *.75;
-                text-decoration: none;
-                color: #767676;
-
             }
             &_2 {
                 grid-column-start: 1;
                 grid-row-start: 2;
+                @extend %footer-content-txt;
+                >div{
+                    padding-bottom: $base-unit;
+                }
             }
             &_3 {
                 grid-column-start: 2;
                 grid-row-start: 1;
                 grid-row-end: 3;
+                @extend %footer-content-txt;
+                >div{
+                    padding-bottom: $base-unit;
+                }
             }
             &_4 {
                 grid-column-start: 3;
                 grid-row-start: 1;
+                @extend %footer-content-txt;
             }
             &_5 {
                 grid-column-start: 3;
                 grid-row-start: 2;
+                @extend %footer-content-txt;
+                >div{
+                    padding-bottom: $base-unit;
+                }
             }
             &_6 {
                 grid-column-start: 4;
                 grid-row-start: 1;
                 grid-row-end: 3;
+                @extend %footer-content-txt;
+                >div{
+                    padding-bottom: $base-unit;
+                }
             }
         }
     }
