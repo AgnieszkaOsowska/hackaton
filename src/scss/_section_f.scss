@@ -1,20 +1,44 @@
-.section-f .wrapper {
+.section-f {
     position: relative;
-    margin-top: $base-unit*3;
-    height: $base-unit * 15;
-    color: white;
-    background-image: url(http://via.placeholder.com/1376x240/7a217f);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-    &::before {
-        content: "";
+    .wrapper {
+        padding-right: $base-unit * 11.36;
+        padding-left: $base-unit * 11.36;
+        position: relative;
+        margin-top: $base-unit*3;
+        height: $base-unit * 15;
+        color: white;
+        background-image: url(http://via.placeholder.com/1376x240/7a217f);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background: linear-gradient(to left, #333 0%, transparent 100%);
+        }
+    }
+    &__cont {
         position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        background: linear-gradient(to left, #333 0%, transparent 100%);
+        height: 100%;
+        overflow: hidden;
+        padding-top: $base-unit*4.5;
+        .robo{
+                font-family: $font-R;
+        }
+        .poppins{
+            font-family: $font-P;
+        }
+        &__p{
+            display: block;
+            word-wrap: break-word;
+            padding-bottom: $base-unit*3;
+            max-width: $base-unit*35;
+           
+        }
     }
 }
 
