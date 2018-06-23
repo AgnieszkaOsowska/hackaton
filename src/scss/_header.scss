@@ -1,31 +1,33 @@
 .head{
-    position: relative;
-    margin-top: 0;
-    height: $base-unit * 42;
+
+    position: absolute;
+    z-index: 20;
+    left: 0;
+    width: 100%;
+    overflow: hidden;   
     color: white;
-    background: url(http://via.placeholder.com/1376x675/7a217f);;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-        
 
     .wrapper{
-        position: relative;
-        height: 100%;
-        z-index: 2;
+        
 
     }
    
 
     &__media{
-        //position: absolute;
-        //z-index: 10;
-        border-bottom: 1px solid white;
-
-
-        
         height: $base-unit * 3;
-        width: $base-unit * 86;
-        float: right;
+        border-bottom: 1px solid white;
+        padding-top: $base-unit;
+
+        &__a{
+
+            float: right;
+            padding-right: $base-unit;
+            font-size: $base-unit * 0.625;
+            font-family: $font-M;
+            line-height: $base-unit * 0.9375;
+            
+            
+        }
 
         
     }
@@ -33,38 +35,60 @@
     &__cont {
         //float: left;
         clear: left;
+        position: relative;
+        height: $base-unit * 5;
+        width: 100%;
 
         &__logo{
             float: left;
+            top: 50%;
+            transform: translateY(-50%);
+            position: absolute;
         }
 
         &__nav{
 
-            &__li{
-                color: white;
-                display: inline-block;
-                font-family: $font-M;
-                font-size: $base-unit * 0.625;
-                line-height: $base-unit * 0.9375;
-                text-align: left;
-                text-decoration: none;
-                color: white;
+            &__ul{
+                text-align: center;
+                float: left;
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                top: 50%;
+                //padding-top: $base-unit * 1.75;
 
-            }
+                &__li{
+                    color: white;
+                    display: inline-block;
+                    font-family: $font-M;
+                    font-size: $base-unit * 0.625;
+                    line-height: $base-unit * 0.9375;
+                    text-align: left;
+                    padding-left: $base-unit * 1.5;
+                    padding-right: $base-unit * 1.5;
 
 
-            &__btn{
-                float: right;
-                width: $base-unit * 10;
-                height: $base-unit * 3;
-                background-color: transparent;
-                border: 1px solid white;
-                color: white;
-                font-size: $base-unit * 0.75;
-                border-radius: 4px;
-                font-family: $font-P;
-               // float: left;
-            }
+                }
+
+            }      
+
+        }
+
+
+        &__btn{
+            //float: right;
+            width: $base-unit * 10;
+            height: $base-unit * 3;
+            background-color: transparent;
+            border: 1px solid white;
+            color: white;
+            font-size: $base-unit * 0.75;
+            border-radius: 4px;
+            font-family: $font-P;
+            top: 50%;
+            transform: translateY(-50%);
+            position: absolute;
+            right: 0%;
 
         }
     }

@@ -1,0 +1,76 @@
+.hero {
+    position: relative;
+    margin-top: 0;
+    height: $base-unit * 42;
+    color: white;
+    background: url(http://via.placeholder.com/1376x675/7a217f);;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+
+    .wrapper {
+        position: relative;
+        height: 100%;
+        z-index: 2;
+    }
+    &__cont {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        width: $base-unit * 34;
+
+        &__p{
+            text-align: center;
+            line-height: $base-unit * 2;
+        }
+
+        &__h1{
+            text-align: center;
+            line-height: $base-unit * 3.375;
+            height: $base-unit * 7.75;
+            margin-top: $base-unit * 2.25;
+        }
+
+        &__form{
+
+
+            &__in{
+                width: $base-unit * 26;
+                height: $base-unit * 3;
+                position: absolute;
+                z-index: 1;
+                left: 50%;
+                transform: translateX(-50%);
+                background-color: transparent;
+                border: 1px solid white;
+                border-radius: 4px;
+                padding-left: $base-unit;
+    
+            }
+    
+            &__sub{
+                position: absolute;
+                z-index: 2;
+                top: 107%;
+                left: 85%;
+                transform: translate(-100%);
+                width: $base-unit * 6.5;
+                height: $base-unit * 1.1875;
+                background-color: transparent;
+                border: none;
+                font-family: $font-P;
+                font-weight: 900;
+                font-size: $base-unit * 0.75;
+                color: white;
+            }
+
+
+        }
+
+    
+      
+    }
+
+}
