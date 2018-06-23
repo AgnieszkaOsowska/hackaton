@@ -5,12 +5,18 @@ html {
     box-sizing: inherit;
 }
 h1, .h1{
-    font-size: $base-unit * 2;
+    font-size: $base-unit * 2.25;
     font-family: $font-P;
     font-weight: 600px;
 
 }
 h2, .h2{
+    font-size: $base-unit * 2;
+    font-family: $font-P;
+    font-weight: 600px;
+}
+
+h3, .h3{
     font-size: $base-unit * 1.25;
     font-family: $font-P;
     font-weight: 600px;
