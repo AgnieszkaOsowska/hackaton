@@ -5,6 +5,14 @@
         grid-template-columns: 25% 25% 25% 25%;
         grid-template-rows: 50% 50%;
         padding-bottom: $base-unit *3;
+        &__bottom {
+            float: right;
+            &__cat {
+                @extend %footer-content-txt;
+                display: inline-block;
+                padding-right: $base-unit*.5;
+            }
+        }
         &__cat {
             display: inline-block;
             font-family: $font-M;
@@ -70,6 +78,6 @@
     &__copy {
         margin-top: $base-unit *2;
         @extend %footer-content-txt;
-        padding-bottom: $base-unit *2;
+        margin-bottom: $base-unit *2;
     }
 }
