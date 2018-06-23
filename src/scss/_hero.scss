@@ -64,6 +64,11 @@
                 font-weight: 900;
                 font-size: $base-unit * 0.75;
                 color: white;
+
+                &:hover{
+                    background-color: white;
+                    color: #7a217f;
+                }
             }
 
 

@@ -16,16 +16,23 @@
         height: $base-unit * 3;
         border-bottom: 1px solid white;
         padding-top: $base-unit;
+        margin: 0 auto;
+        padding-right: $base-unit * 7.8125;
+        padding-left: $base-unit * 7.8125;
+        max-width: $width-main;
 
         &__a{
 
             float: right;
+            padding-left: $base-unit;
             padding-right: $base-unit;
             font-size: $base-unit * 0.625;
             font-family: $font-M;
             line-height: $base-unit * 0.9375;
             
-            
+            &:hover{
+                background-color: grey;
+            }
         }
 
         
@@ -54,7 +61,6 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 top: 50%;
-                //padding-top: $base-unit * 1.75;
 
                 &__li{
                     color: white;
@@ -66,6 +72,10 @@
                     padding-left: $base-unit * 1.5;
                     padding-right: $base-unit * 1.5;
 
+                    &:hover{
+                        background-color: grey;
+                    }
+
 
                 }
 
@@ -75,7 +85,6 @@
 
 
         &__btn{
-            //float: right;
             width: $base-unit * 10;
             height: $base-unit * 3;
             background-color: transparent;
@@ -88,6 +97,11 @@
             transform: translateY(-50%);
             position: absolute;
             right: 0%;
+
+            &:hover{
+                background-color: white;
+                color: #7a217f;
+            }
 
         }
     }

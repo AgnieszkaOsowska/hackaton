@@ -1,17 +1,25 @@
 .map{
     position: relative;
+    margin: 0 auto;
   
       width: $base-unit * 86;
       clear: right;
 
     &__api{
+        height: 0;
+        padding-bottom: 42.44%;
+
+        &__img{
+
+        
+        }
 
     }
 
     &__loc{
         height: $base-unit * 17;
-        margin-top: $base-unit * 5;
-        margin-bottom: $base-unit * 6.5;
+        padding-top: $base-unit * 5;
+        //margin-bottom: $base-unit * 6.5;
         position: relative;
      
 
@@ -23,6 +31,10 @@
             float: left;          
 
 
+        }
+
+        .map__ad{
+            margin-left: $base-unit * 26;
         }
 
         .map__ph{
