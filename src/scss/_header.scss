@@ -24,12 +24,15 @@
         &__a{
 
             float: right;
+            padding-left: $base-unit;
             padding-right: $base-unit;
             font-size: $base-unit * 0.625;
             font-family: $font-M;
             line-height: $base-unit * 0.9375;
             
-            
+            &:hover{
+                background-color: grey;
+            }
         }
 
         
@@ -69,6 +72,10 @@
                     padding-left: $base-unit * 1.5;
                     padding-right: $base-unit * 1.5;
 
+                    &:hover{
+                        background-color: grey;
+                    }
+
 
                 }
 
@@ -90,6 +97,11 @@
             transform: translateY(-50%);
             position: absolute;
             right: 0%;
+
+            &:hover{
+                background-color: white;
+                color: #7a217f;
+            }
 
         }
     }
