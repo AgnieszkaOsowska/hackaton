@@ -1,0 +1,44 @@
+.main-news {
+    &__cat {
+        padding-top: $base-unit*3;
+        padding-bottom: $base-unit*3;
+        text-align: center;
+        font-family: $font-P;
+        font-size: $base-unit*2;
+        font-weight: 400;
+    }
+    &__cont {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &__item {
+            text-align: center;
+            width: $base-unit*22;
+            &__img {
+                padding-bottom: $base-unit*3;
+            }
+            &__txt {
+                &_1 {
+                    padding-bottom: $base-unit*3;
+                    font-family: $font-P;
+                    font-weight: 500;
+                    font-size: $base-unit*1.25;
+                }
+                &_2 {
+                    font-family: $font-P;
+                    font-weight: 300;
+                    font-size: $base-unit;
+                    padding-bottom: $base-unit*3;
+                }
+                &_small {
+                    display: flex;
+                    color: #B7B7B7;
+                    font-family: $font-M;
+                    font-weight: 600;
+                    font-size: $base-unit*.75;
+                    justify-content: space-around;
+                }
+            }
+        }
+    }
+}
