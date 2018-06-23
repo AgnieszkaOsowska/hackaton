@@ -1,0 +1,35 @@
+.head{
+    background: url(http://via.placeholder.com/1376x675);
+
+    &__media{
+        border-bottom: 1px solid black;
+
+        &__a{
+            font-family: $font-M;
+            font-size: $base-unit * 0.625;
+            line-height: $base-unit * 0.9375;
+            text-align: left;
+        }
+  
+    }
+
+    &__cont {
+
+        &__logo{
+
+        }
+
+        &__nav{
+
+
+            &__btn{
+
+                width: $base-unit * 10;
+                height: $base-unit * 3;
+            }
+        }
+    }
+
+
+
+}
