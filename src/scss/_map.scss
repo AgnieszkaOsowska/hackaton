@@ -1,0 +1,27 @@
+.map{
+  
+  &__cont{
+      max-width: $base-unit * 86;
+
+      &__api{
+
+      }
+
+      
+  }
+
+  .wrapper{
+
+    .map__ad{
+
+        padding-left: $base-unit * 18.1875;
+        width: $base-unit * 16;
+
+        
+    }
+  }
+}
+
+.color--blue{
+    color: blue;
+}
