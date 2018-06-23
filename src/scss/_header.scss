@@ -1,17 +1,13 @@
 .head{
-    position: relative;
-    margin-top: 0;
-    height: $base-unit * 42;
-    color: white;
-    background: url(http://via.placeholder.com/1376x675/7a217f);;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-        
+
+    position: absolute;
+    z-index: 20;
+    left: 0;
+    width: 100%;
+    overflow: hidden;   
 
     .wrapper{
-        position: relative;
-        height: 100%;
-        z-index: 2;
+        
 
     }
    
