@@ -9,7 +9,6 @@
             font-size: $base-unit;
             text-decoration: none;
             color: #767676;
-            grid-gap: 100px;
         }
         &__col {
             &_1 {
@@ -17,6 +16,7 @@
                 grid-row-start: 1;
                 >div {
                     padding-bottom: $base-unit;
+                    padding-right: $base-unit*7.6;
                 }
             }
             &_2 {
@@ -25,6 +25,7 @@
                 @extend %footer-content-txt;
                 >div {
                     padding-bottom: $base-unit;
+                    padding-right: $base-unit*7.6;
                 }
             }
             &_3 {
@@ -34,12 +35,17 @@
                 @extend %footer-content-txt;
                 >div {
                     padding-bottom: $base-unit;
+                    padding-right: $base-unit*7.6;
                 }
             }
             &_4 {
                 grid-column-start: 3;
                 grid-row-start: 1;
                 @extend %footer-content-txt;
+                >div {
+                    padding-bottom: $base-unit;
+                    padding-right: $base-unit*7.6;
+                }
             }
             &_5 {
                 grid-column-start: 3;
@@ -47,6 +53,7 @@
                 @extend %footer-content-txt;
                 >div {
                     padding-bottom: $base-unit;
+                    padding-right: $base-unit*7.6;
                 }
             }
             &_6 {
@@ -56,6 +63,7 @@
                 @extend %footer-content-txt;
                 >div {
                     padding-bottom: $base-unit;
+                    padding-right: $base-unit*7.6;
                 }
             }
         }
