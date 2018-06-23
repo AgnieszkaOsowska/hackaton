@@ -48,10 +48,22 @@ h3,
 
 .btn {}
 
+.main_hr {
+    height: 1px;
+    color: #767676;
+    background-color: #767676;
+    border: none;
+}
+
 %footer-content-txt {
     font-family: $font-M;
     font-weight: 600;
     font-size: $base-unit *.75;
     text-decoration: none;
     color: #767676;
+}
+
+%div-grid-gap {
+    padding-bottom: $base-unit;
+    padding-right: $base-unit*7.6;
 }
