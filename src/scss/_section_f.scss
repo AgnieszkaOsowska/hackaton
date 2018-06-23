@@ -1,0 +1,27 @@
+.section-f .wrapper {
+    position: relative;
+    margin-top: $base-unit*3;
+    height: $base-unit * 15;
+    color: white;
+    background-image: url(http://via.placeholder.com/1376x240/7a217f);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: linear-gradient(to left, #333 0%, transparent 100%);
+    }
+}
+
+.section-f-inputs {
+    text-align: center;
+    &__cont {
+        margin-top: $base-unit *3;
+        margin-bottom: $base-unit *3;
+    }
+}
