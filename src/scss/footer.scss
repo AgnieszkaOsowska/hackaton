@@ -18,6 +18,9 @@
                 grid-column-start: 1;
                 grid-row-start: 1;
 
+                >div{
+                    padding-bottom: $base-unit;
+                }
                 font-family: $font-M;
                 font-weight: 600;
                 font-size: $base-unit *.75;
