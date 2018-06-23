@@ -17,6 +17,10 @@
         height: $base-unit * 3;
         border-bottom: 1px solid white;
         padding-top: $base-unit;
+        margin: 0 auto;
+        padding-right: $base-unit * 7.8125;
+        padding-left: $base-unit * 7.8125;
+        max-width: $width-main;
 
         &__a{
 
@@ -55,7 +59,6 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 top: 50%;
-                //padding-top: $base-unit * 1.75;
 
                 &__li{
                     color: white;
@@ -76,7 +79,6 @@
 
 
         &__btn{
-            //float: right;
             width: $base-unit * 10;
             height: $base-unit * 3;
             background-color: transparent;
