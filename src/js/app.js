@@ -76,7 +76,6 @@ xhr.addEventListener('load', function () {
     }
 })
 
-<<<<<<< HEAD
 
 
 //formularz
@@ -151,15 +150,16 @@ function checkForm() {
   
   btnSend.addEventListener('click', checkForm);
 
-=======
-//video controls
-var _videoElem = document.querySelector('[data-js=\"videoElem\"]'),
-    _videoPlay = document.querySelector('[data-js=\"videoPlay\"]');
-   
+
+
+
+
+  var _videoElem = document.querySelector('[data-js=\"videoElem\"]'),
+  _videoPlay = document.querySelector('[data-js=\"videoPlay\"]');
+ 
 
 
 _videoPlay.addEventListener('click', function () {
-    _videoElem.play();
-    _videoCont.classList.add('is-playing');
+  _videoElem.play();
+  _videoCont.classList.add('is-playing');
 })
->>>>>>> video
