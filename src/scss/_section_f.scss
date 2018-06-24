@@ -1,0 +1,86 @@
+.section-f {
+    position: relative;
+    .wrapper {
+        position: relative;
+        margin-top: $base-unit*3;
+        height: $base-unit * 15;
+        color: white;
+        background-image: url(http://via.placeholder.com/1376x240/7a217f);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background: linear-gradient(to left, #333 0%, transparent 100%);
+        }
+    }
+    &__cont {
+        position: absolute;
+        height: 100%;
+        overflow: hidden;
+        padding-top: $base-unit*4.5;
+        >div {
+            padding-right: $base-unit * 3.31;
+            padding-left: $base-unit * 3.31;
+        }
+        >i {
+            float: left;
+        }
+        .robo {
+            font-family: $font-R;
+            font-weight: 300;
+            font-size: $base-unit*1.25;
+            text-decoration: none;
+            color: #fff;
+        }
+        .poppins {
+            font-family: $font-P;
+            font-weight: 600;
+            font-size: $base-unit;
+            text-decoration: none;
+            color: #fff;
+        }
+        &__p {
+            display: block;
+            word-wrap: break-word;
+            padding-bottom: $base-unit*3;
+            max-width: $base-unit*35;
+        }
+    }
+}
+
+.section-f-inputs {
+    text-align: center;
+    &__cont {
+        margin-top: $base-unit *3;
+        margin-bottom: $base-unit *3;
+        padding-right: $base-unit*2;
+        >input {
+            width: $base-unit*10;
+            height: $base-unit*3;
+            margin-right: $base-unit;
+            background-color: #7A217F;
+            border: 1px solid;
+            border-color: #0D70B7;
+            border-radius: 5px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-family: $font-P;
+            font-weight: 600;
+            font-size: $base-unit*0.75;
+            &:hover {
+                background-color: #fff;
+                color: #7A217F;
+                border: 1px solid;
+                border-color: #7A217F;
+            }
+        }
+    }
+}
