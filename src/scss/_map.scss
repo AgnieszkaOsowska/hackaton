@@ -1,25 +1,55 @@
 .map{
+    position: relative;
+    margin: 0 auto;
   
-  &__cont{
-      max-width: $base-unit * 86;
+      width: $base-unit * 86;
+      clear: right;
 
-      &__api{
+    &__api{
+        height: 0;
+        padding-bottom: 42.44%;
 
-      }
-
-      
-  }
-
-  .wrapper{
-
-    .map__ad{
-
-        padding-left: $base-unit * 18.1875;
-        width: $base-unit * 16;
+        &__img{
 
         
+        }
+
     }
-  }
+
+    &__loc{
+        height: $base-unit * 17;
+        padding-top: $base-unit * 5;
+        //margin-bottom: $base-unit * 6.5;
+        position: relative;
+     
+
+        .map__ad, .map__ph{
+           
+            font-family: $font-P;
+            font-weight: 600;
+            line-height: $base-unit * 2;
+            float: left;          
+
+
+        }
+
+        .map__ad{
+            margin-left: $base-unit * 26;
+        }
+
+        .map__ph{
+            margin-left: $base-unit *2;
+            //position: relative;
+            //top: 50%;
+            //left: 50%;
+            //transform: translate(-50%, -50%);
+
+        }
+    }
+  
+
+ 
+    
 }
 
 .color--blue{
