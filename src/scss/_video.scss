@@ -1,0 +1,43 @@
+.video {
+    position: relative;
+    .wrapper {
+        position: static;
+        padding-bottom: $base-unit*30;
+    }
+}
+
+.video-cont {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    video {
+        padding-top: $base-unit*2;
+        height: 384px;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+.video-controls {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    width: 32px;
+    height: 37, 81px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.clik {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    width: 130px;
+    height: 24, 67px;
+    top: 10%;
+    left: 60%;
+    transform: translate(-50%, 0%);
+}
