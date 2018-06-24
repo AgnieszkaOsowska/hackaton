@@ -1,0 +1,95 @@
+.main-form{
+    width: $base-unit * 34;
+    margin: 0 auto;
+    padding-top: $base-unit * 4;
+
+    .cont{
+        &__h2{
+            text-align: center;
+            padding-bottom: $base-unit * 2;
+        }
+    
+        &__p{
+            text-align: center;
+            font-size: $base-unit;
+            font-family: $font-P;
+            font-weight: 600;
+            padding-right: $base-unit * 3;
+            padding-left: $base-unit * 3;
+        }
+
+
+    }
+
+    .cont__form{
+        color: #B7B7B7;
+        margin-top: $base-unit * 3;
+        position: relative;
+
+        &__in{
+            border: none;
+            border-bottom: 1px solid #B7B7B7;
+            height: $base-unit * 2;
+            width: 100%;
+            padding-bottom: $base-unit;
+            margin-bottom: $base-unit;
+        }
+
+        &__text{
+            font-family: $font-P;
+            font-weight: 400;
+            font-size: $base-unit * 0.75;
+           // margin-top: $base-unit *3;
+        }
+
+        &__textar{
+            width: 100%;
+            height: $base-unit *10;
+            margin-top: $base-unit;
+            margin-bottom: $base-unit * 2;
+            border: 1px solid black;
+            background-color: #B7B7B7;
+            opacity: 0.1;
+        }
+
+        &__btn{
+            margin-top: $base-unit * 6.5;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            width: $base-unit * 10;
+            height: $base-unit * 3;
+            background-color: $color-btn;
+            color: white;
+            border-radius: $radious-btn;
+            margin-bottom: $base-unit * 3;
+        }
+
+        &__p{
+            text-align: center;
+            font-size: $base-unit * 0.75;
+            font-family: $font-P;
+            font-weight: 600;
+            margin-bottom: $base-unit * 4;
+        }
+
+        .color--purp{
+            color: $color-btn;
+        }
+
+        .textcheck{
+            //position: absolute;
+            padding-top: $base-unit;
+            font-family: $font-P;
+            font-weight: 400;
+            font-size: $base-unit * 0.75;
+            color: red;
+
+        }
+
+        
+
+
+    }
+   
+}
